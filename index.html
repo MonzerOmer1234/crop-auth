@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="parent  row m-5 ">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide col-lg-6 position-relative d-none d-lg-block"
+        data-bs-ride="carousel"
+        style="height : 800px"
+      >
+        <div class="carousel-inner">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="green"
+            width="50px"
+            height="50px"
+            viewBox="0 0 512 512"
+            data-name="Layer 1"
+            id="Layer_1"
+            class="ms-2 mt-3"
+          >
+            <title />
+            <path
+              d="M431.58,32.35a5.93,5.93,0,0,0-6.53-2.24C248.25,82.58,138,157.69,97.48,253.36c-33.9,80-6.33,145.74-.61,157.86-14.52,39.23-17.47,63.67-17.54,64.32a6,6,0,0,0,5.3,6.57l.63,0a6,6,0,0,0,5.93-5.33c.07-.62,2.88-23.4,16.33-60.17,9.37.62,18.63,1.09,27.57,1.09C265.81,417.73,349,352,365.16,234.05,382,111.18,431.13,40,431.62,39.26A6,6,0,0,0,431.58,32.35ZM353.36,232.44C330.81,396.69,183.25,409.08,111.93,405.1c26.47-66.66,85.64-171,216.14-274.67a6,6,0,0,0-7.42-9.35C192.08,223.25,131.48,326.46,103.24,395a190.72,190.72,0,0,1,5.22-137C146.41,168.49,249,97.25,413.31,46.13,398,72.66,366.49,136.72,353.36,232.44Z"
+            />
+          </svg>
+
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="position-absolute">
+              <h3 class="mb-4 text-white text-center w-100">
+                Manage your fields remotely
+              </h3>
+              <p class="text-white" style="line-height: 1.4; width: 400px">
+                Monitor the state of your crops right from the office, learn
+                about the slightest changes on-the-spot, and make fast and
+                reliable decisions on field treatment
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="position-absolute">
+              <h3 class="mb-4 text-white text-center w-100">
+                Save on costs by up to 30% with VRA approach
+              </h3>
+              <p class="text-white" style="line-height: 1.4; width: 400px">
+                This tool can identify up to 7 zones with different productivity
+                rates and create differential fertilizing, sowing, and
+                irrigation maps, thus saving you a lot of time and resources.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="position-absolute">
+              <h3 class="mb-4 text-white text-center">
+                Full-fledged weather analytics at your fingertips
+              </h3>
+              <p class="text-white" style="line-height: 1.4; width: 400px">
+                Correlate weather with vegetation indices which are the
+                tell-tale signs of how weather conditions influence the health
+                of your crops.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div
+        class="d-flex flex-column col-12 col-lg-6 content  "
+        style="background-color: #181f26 ; height : 800px"
+      >
+      <div class=" d-flex justify-content-between">
+
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="green"
+        width="50px"
+        height="50px"
+        viewBox="0 0 512 512"
+        data-name="Layer 1"
+        id="Layer_1"
+        class="ms-2 mt-3"
+      >
+        <title />
+        <path
+          d="M431.58,32.35a5.93,5.93,0,0,0-6.53-2.24C248.25,82.58,138,157.69,97.48,253.36c-33.9,80-6.33,145.74-.61,157.86-14.52,39.23-17.47,63.67-17.54,64.32a6,6,0,0,0,5.3,6.57l.63,0a6,6,0,0,0,5.93-5.33c.07-.62,2.88-23.4,16.33-60.17,9.37.62,18.63,1.09,27.57,1.09C265.81,417.73,349,352,365.16,234.05,382,111.18,431.13,40,431.62,39.26A6,6,0,0,0,431.58,32.35ZM353.36,232.44C330.81,396.69,183.25,409.08,111.93,405.1c26.47-66.66,85.64-171,216.14-274.67a6,6,0,0,0-7.42-9.35C192.08,223.25,131.48,326.46,103.24,395a190.72,190.72,0,0,1,5.22-137C146.41,168.49,249,97.25,413.31,46.13,398,72.66,366.49,136.72,353.36,232.44Z"
+        />
+      </svg>
+
+
+
+
+         <div class="d-flex gap-5 align-items-center mt-2 ms-auto">
+          
+          <div>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              fit=""
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+            >
+              <path
+                d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
+                fill="#F0F0F0"
+              ></path>
+              <path
+                d="M2.06645 3.91138C1.28094 4.93337 0.688633 6.1113 0.34375 7.39095H5.54602L2.06645 3.91138Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M19.6553 7.39092C19.3104 6.1113 18.7181 4.93337 17.9326 3.91138L14.4531 7.39092H19.6553Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M0.34375 12.6086C0.688672 13.8883 1.28098 15.0662 2.06645 16.0881L5.5459 12.6086H0.34375Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M16.087 2.06697C15.065 1.28146 13.8871 0.68916 12.6074 0.344238V5.54646L16.087 2.06697Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M3.91016 17.9331C4.93215 18.7186 6.11008 19.3109 7.38969 19.6558V14.4536L3.91016 17.9331Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M7.38965 0.344238C6.11004 0.68916 4.93211 1.28146 3.91016 2.06693L7.38965 5.54643V0.344238Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M12.6074 19.6558C13.887 19.3109 15.065 18.7186 16.0869 17.9331L12.6074 14.4536V19.6558Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M14.4531 12.6086L17.9326 16.0882C18.7181 15.0662 19.3104 13.8883 19.6553 12.6086H14.4531Z"
+                fill="#0052B4"
+              ></path>
+              <path
+                d="M19.9154 8.69566H11.3044H11.3044V0.0846484C10.8774 0.0290625 10.4421 0 10 0C9.55785 0 9.12262 0.0290625 8.69566 0.0846484V8.69559V8.69563H0.0846484C0.0290625 9.12262 0 9.55793 0 10C0 10.4421 0.0290625 10.8774 0.0846484 11.3043H8.69559H8.69563V19.9154C9.12262 19.9709 9.55785 20 10 20C10.4421 20 10.8774 19.971 11.3043 19.9154V11.3044V11.3044H19.9154C19.9709 10.8774 20 10.4421 20 10C20 9.55793 19.9709 9.12262 19.9154 8.69566Z"
+                fill="#D80027"
+              ></path>
+              <path
+                d="M12.6094 12.6084L17.0717 17.0708C17.277 16.8656 17.4727 16.6511 17.6595 16.4288L13.8391 12.6084H12.6094V12.6084Z"
+                fill="#D80027"
+              ></path>
+              <path
+                d="M7.39011 12.6086H7.39003L2.92773 17.0709C3.13289 17.2762 3.34738 17.472 3.56973 17.6588L7.39011 13.8383V12.6086Z"
+                fill="#D80027"
+              ></path>
+              <path
+                d="M7.39195 7.39093V7.39086L2.92961 2.92847C2.72438 3.13362 2.52859 3.34812 2.3418 3.57046L6.16223 7.3909H7.39195V7.39093Z"
+                fill="#D80027"
+              ></path>
+              <path
+                d="M12.6094 7.39175L17.0718 2.92933C16.8666 2.72409 16.6521 2.52831 16.4298 2.34155L12.6094 6.16198V7.39175Z"
+                fill="#D80027"
+              ></path>
+            </svg>
+            <span class="text-white ms-2">English</span>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#fff"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.854 10.854l3.792 3.792a.5.5 0 00.708 0l3.793-3.792a.5.5 0 00-.354-.854H8.207a.5.5 0 00-.353.854z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+       
+        <p
+          class="text-white ps-2 text-wrap text-center text-lg-nowrap mt-2 fw-medium"
+        >
+          Manage your fields easier - Monitor online. Detect in real-time. Act
+          smart.
+        </p>
+        <div
+          class="d-flex flex-column auth align-items-center position-relative"
+          style="
+            background-color: #212930;
+            height: 80%;
+            margin: 30px 50px ;
+            border-radius: 15px;
+            
+          "
+        >
+          <div class="d-flex position-absolute start-0 top-0 w-100">
+            <p class="text-uppercase text-white p-3 w-50 text-center">
+              Sign Up for free
+            </p>
+            <p
+              class="text-uppercase text-white p-3 w-50 text-center"
+              style="
+                border-left: 1px solid #323d49;
+                border-bottom: 1px solid #323d49;
+                background-color: #010203;
+              "
+            >
+              Sign In
+            </p>
+          </div>
+          <div class=" position-absolute mt-3 px-3 d-flex w-100 " style="top : 70px">
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              fit=""
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+            >
+              <path
+                d="M22.0059 12.2119H2.17566V22.4748H22.0059V12.2119Z"
+                fill="#FF9B00"
+              ></path>
+              <path
+                d="M23.0576 8.42871H1.14087V12.2285H23.0576V8.42871Z"
+                fill="#FFBF23"
+              ></path>
+              <path
+                d="M22.0059 12.2119H2.17566V13.552H22.0059V12.2119Z"
+                fill="#DE8B0B"
+              ></path>
+              <path
+                d="M13.3545 8.42871H10.8609V22.4744H13.3545V8.42871Z"
+                fill="#DD312C"
+              ></path>
+              <path
+                d="M12.2091 8.21548C12.9074 7.87631 13.5857 7.47728 14.2441 7.05831C14.9025 6.63934 15.521 6.18046 16.0796 5.70164C16.3589 5.46222 16.6183 5.20286 16.8378 4.92355C17.0572 4.66418 17.2567 4.38486 17.3565 4.10555L17.3964 4.00579C17.3964 3.98584 17.4164 3.96589 17.4164 3.96589L17.3964 3.98584C17.3765 4.00579 17.3765 4.00579 17.3765 3.98584C17.3565 3.94594 17.3166 3.82623 17.2368 3.72648C17.0971 3.50702 16.8777 3.28755 16.6383 3.12795C16.3988 2.94839 16.1395 2.82868 15.92 2.76882C15.8003 2.74887 15.7006 2.72892 15.6208 2.72892C15.5809 2.72892 15.541 2.72892 15.5011 2.74887C15.4811 2.74887 15.4611 2.76882 15.4412 2.76882H15.4611C15.4611 2.76882 15.3813 2.82868 15.3015 2.92844C15.2217 3.02819 15.122 3.14789 15.0422 3.28755C14.8626 3.56687 14.6831 3.86614 14.5234 4.2053C13.8651 5.52208 13.2665 6.95856 12.6281 8.37508C12.6081 8.43494 12.5283 8.45489 12.4286 8.45489C12.4086 8.45489 12.3687 8.45489 12.3488 8.45489H12.3089C12.2889 8.45489 12.2889 8.41499 12.269 8.39504C12.2291 8.35513 12.1892 8.35513 12.1692 8.37508C12.1493 8.39503 12.1293 8.41498 12.1094 8.43493C12.0894 8.45489 12.0695 8.47484 12.0495 8.49479C12.0296 8.49479 11.9697 8.49479 11.9498 8.45489C11.9298 8.43494 11.9099 8.39503 11.9099 8.37508C11.9099 8.35513 11.8899 8.35513 11.87 8.35513C11.85 8.33518 11.83 8.33518 11.8101 8.31523C11.7303 8.25538 11.6704 8.19552 11.6904 8.13567C11.7901 7.33762 11.9298 6.55953 12.1293 5.76149C12.3288 4.9834 12.5682 4.20531 12.8875 3.42721C13.0471 3.04814 13.2266 2.64912 13.486 2.27005C13.6057 2.07053 13.7454 1.87102 13.905 1.67151C14.0845 1.472 14.284 1.25254 14.6432 1.07298C14.7429 1.03308 14.8427 0.993173 14.9424 0.953271C15.0222 0.93332 15.102 0.913371 15.1818 0.89342C15.3414 0.873469 15.501 0.853516 15.6407 0.853516C15.94 0.853516 16.2392 0.913371 16.4986 0.993176C17.0173 1.17274 17.4563 1.4321 17.8154 1.77127C18.1745 2.09049 18.4937 2.46955 18.7331 2.94838C18.8528 3.18779 18.9526 3.44716 18.9925 3.78633C19.0124 3.96589 18.9925 4.1654 18.9326 4.36491C18.9127 4.42476 18.8927 4.46467 18.8728 4.52452C18.8528 4.56443 18.8329 4.58438 18.8329 4.60433L18.7331 4.78389C18.4738 5.22281 18.1545 5.54202 17.8154 5.84129C17.4762 6.12061 17.137 6.36002 16.7979 6.57948C16.0996 7.01841 15.3614 7.35758 14.6232 7.6768C13.885 7.99601 13.1468 8.25538 12.3887 8.49479C12.3288 8.51474 12.269 8.51474 12.2291 8.49479C12.2091 8.49479 12.2091 8.49479 12.2091 8.47484C12.2091 8.47484 12.1892 8.45489 12.1692 8.45489C12.1293 8.43494 12.1493 8.41499 12.1493 8.39504C12.1692 8.37508 12.1892 8.35513 12.1493 8.33518C12.1293 8.31523 12.1493 8.29528 12.1493 8.27533C12.1094 8.27533 12.1493 8.25538 12.2091 8.21548Z"
+                fill="#DD312C"
+              ></path>
+              <path
+                d="M11.9698 8.21548C11.2715 7.87631 10.5931 7.47728 9.93474 7.05831C9.27635 6.63934 8.65787 6.18046 8.09924 5.70164C7.81992 5.46222 7.56056 5.20286 7.34109 4.92355C7.12163 4.66418 6.92212 4.38486 6.82237 4.10555L6.78246 4.00579C6.78246 3.98584 6.76251 3.96589 6.76251 3.96589L6.78246 3.98584C6.80241 4.00579 6.80241 4.00579 6.80241 3.98584C6.82237 3.94594 6.86227 3.82623 6.94207 3.72648C7.08173 3.50702 7.30119 3.28755 7.5406 3.12795C7.78002 2.94839 8.03938 2.82868 8.25884 2.76882C8.37855 2.74887 8.47831 2.72892 8.55811 2.72892C8.59801 2.72892 8.63792 2.72892 8.67782 2.74887C8.69777 2.74887 8.71772 2.76882 8.73767 2.76882H8.71772C8.71772 2.76882 8.79752 2.82868 8.87733 2.92844C8.95713 3.02819 9.05689 3.14789 9.13669 3.28755C9.31625 3.56687 9.49581 3.86614 9.65542 4.2053C10.3138 5.52208 10.9123 6.95856 11.5508 8.37508C11.5707 8.43494 11.6505 8.45489 11.7503 8.45489C11.7702 8.45489 11.8101 8.45489 11.8301 8.45489H11.87C11.8899 8.45489 11.8899 8.41499 11.9099 8.39504C11.9498 8.35513 11.9897 8.35513 12.0097 8.37508C12.0296 8.39503 12.0496 8.41498 12.0695 8.43493C12.0895 8.45489 12.1094 8.47484 12.1294 8.49479C12.1493 8.49479 12.2092 8.49479 12.2291 8.45489C12.2491 8.43494 12.269 8.39503 12.269 8.37508C12.269 8.35513 12.289 8.35513 12.3089 8.35513C12.3289 8.33518 12.3488 8.33518 12.3688 8.31523C12.4486 8.25538 12.5084 8.19552 12.4885 8.13567C12.3887 7.33762 12.2491 6.55953 12.0496 5.76149C11.85 4.9834 11.6106 4.20531 11.2914 3.42721C11.1318 3.04814 10.9522 2.64912 10.6929 2.27005C10.5732 2.07053 10.4335 1.87102 10.2739 1.67151C10.0943 1.472 9.89483 1.25254 9.53571 1.07298C9.43596 1.03308 9.3362 0.993173 9.23645 0.953271C9.15664 0.93332 9.07684 0.913371 8.99704 0.89342C8.83743 0.873469 8.67782 0.853516 8.53816 0.853516C8.23889 0.853516 7.93963 0.913371 7.68026 0.993176C7.16153 1.17274 6.72261 1.4321 6.36349 1.77127C6.00437 2.09049 5.68515 2.46955 5.44574 2.94838C5.32603 3.18779 5.22628 3.44716 5.18638 3.78633C5.16642 3.96589 5.18637 4.1654 5.24623 4.36491C5.26618 4.42476 5.28613 4.46467 5.30608 4.52452C5.32603 4.56443 5.34598 4.58438 5.34598 4.60433L5.44574 4.78389C5.7051 5.22281 6.02432 5.54202 6.36349 5.84129C6.70266 6.12061 7.04183 6.36002 7.381 6.57948C8.07929 7.01841 8.81747 7.35758 9.55567 7.6768C10.2939 7.99601 11.032 8.25538 11.7902 8.49479C11.85 8.51474 11.9099 8.51474 11.9498 8.49479C11.9697 8.49479 11.9698 8.49479 11.9698 8.47484C11.9698 8.47484 11.9897 8.45489 12.0097 8.45489C12.0496 8.43494 12.0296 8.41499 12.0296 8.39504C12.0097 8.37508 11.9897 8.35513 12.0296 8.33518C12.0496 8.31523 12.0296 8.29528 12.0296 8.27533C12.0496 8.27533 12.0097 8.25538 11.9698 8.21548Z"
+                fill="#DD312C"
+              ></path>
+            </svg>
+            <p class=" text-white ps-2 text-uppercase fw-bold">Sign Up to get free monitoring of your field as a gift!</p>
+          
+        </div>
+        <div class="d-flex align-items-center position-absolute" style="margin-top: 159px ; margin-left : 1px ;  background-color:#007aff ; height : 50px  ; border-radius : 10px ; width : calc(100% - 50px)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="40px" height="40px" viewBox="0 0 24 24" stroke="white" class="ps-2">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"/> </g>
+                
+                </svg>
+                <p class="text-white fw-bold" style="margin-left: 30px; margin-top: 10px">Continue with facebook</p>
+        </div>
+        <div class="d-flex align-items-center position-absolute" style="margin-top: 220px ; margin-left : 4px ;  background-color:white ; height : 50px  ; border-radius : 10px ; width : calc(100% - 50px)">
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="-0.5 0 48 48" version="1.1" class=" ps-2">
+    
+                <title>Google-color</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+            
+            </defs>
+                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Color-" transform="translate(-401.000000, -860.000000)">
+                        <g id="Google" transform="translate(401.000000, 860.000000)">
+                            <path d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24" id="Fill-1" fill="#FBBC05">
+            
+            </path>
+                            <path d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333" id="Fill-2" fill="#EB4335">
+            
+            </path>
+                            <path d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667" id="Fill-3" fill="#34A853">
+            
+            </path>
+                            <path d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24" id="Fill-4" fill="#4285F4">
+            
+            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <p class="fw-bold" style="margin-left: 30px; margin-top: 10px ; color : #0000008A">Continue with google</p>
+        </div>
+
+
+        <div class="position-absolute d-flex w-100 align-items-center" style="top : 280px">
+            <div class=" ms-3" style="width : 40% ; height : 1px ; background-color : gray"></div>
+            <p class=" text-white position-relative ps-2" style="top : 4px">OR</p>
+            <div class=" ms-2" style="width : 45% ; height : 1px ; background-color : gray"></div>
+        </div>
+
+        <form action="" method="POST" class=" position-relative" style="margin-top : 310px">
+            <div class=" name-data d-block gap-2 ms-3 align-items-center">
+               <div class="d-flex   flex-column">
+                <label for="" class="mb-1" style="color : #9FB4C7">First Name</label>
+                <input type="text" class="ps-4 fname" style="background-color: black; border: 1px solid black; border-radius : 10px ; color:white">
+               </div>
+               <div class="d-flex flex-column">
+
+                   <label class="mb-1" for="" style="color : #9FB4C7">Last Name</label>
+                   <input type="text" class=" ps-4 lname" style="background-color: black; border: 1px solid black; color: white; border-radius : 10px">
+               </div>
+            </div>
+            <div>
+               <div class=" mt-1 ms-3 ">
+                <label class="mb-1" for="" style="color : #9FB4C7">Email</label>
+                <input type="email" class="ps-2 d-block" style="background-color: black; border: 1px solid black; border-radius : 10px ; color:white ; width : calc(100% - 25px)">
+               </div>
+               <div class=" mt-1 ms-3">
+                <label class="mb-1" for="" style="color : #9FB4C7">Password</label>
+                <input type="password" class="ps-2 d-block" style="background-color: black; border: 1px solid black; border-radius : 10px ; color:white ; width : calc(100% - 25px)">
+               </div>
+               <div class=" mt-3 d-flex ms-3">
+                <input type="checkbox" id="agree" class="ps-2 d-block" style="background-color: black; border: 1px solid black; border-radius : 10px ; color:white">
+
+                <label class="mb-1 mx-2" for="agree" style="color : #9FB4C7">
+                    I agree to the <a href="" class=" text-decoration-none"> Terms of Use</a> and <a href="" class="text-decoration-none">Privacy Policy</a> , to the processing of my personal data, and to receive emails</label>
+               </div>
+
+               <input type="submit" class=" text-uppercase d-block text-white my-2 ms-3 sign-up" value="Sign Up" style="background-color: #3592FD; width: calc(100% - 30px) ; border: 1px solid #3592FD; border-radius: 10px; height : 48px">
+            
+            </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
